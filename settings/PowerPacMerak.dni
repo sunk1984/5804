@@ -1,0 +1,97 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[JLinkDriver]
+WatchCond=_ 0
+Watch0=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+Watch1=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+[DebugChecksum]
+Checksum=-191824525
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[array_types]
+Fmt0=INT32U[16]	3	0
+Fmt1=unsigned char[50]	3	0
+Fmt2=unsigned long[10]	4	0
+Fmt3=unsigned long[16]	4	0
+Fmt4=unsigned short[10000]	4	0
+Fmt5=unsigned short[16000]	4	0
+Fmt6=unsigned short[9000]	4	0
+[watch_formats]
+Fmt0={W}0:Code	4	0
+Fmt1={W}0:DestIpAddr	4	0
+Fmt2={W}0:GSMInitFlag	4	0
+Fmt3={W}0:IDataTemp	4	0
+Fmt4={W}0:Length	4	0
+Fmt5={W}0:PSA_CRC	4	0
+Fmt6={W}0:StartAddr	4	0
+Fmt7={W}0:TDOword	4	0
+Fmt8={W}0:address[i]	4	0
+Fmt9={W}0:data[init-1]	4	0
+Fmt10={W}0:i	3	0
+Fmt11={W}0:id_sum	3	0
+Fmt12={W}0:out_data	4	0
+Fmt13={W}0:temp	5	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_TRACE_START" "if" 0 0 0 0 4294967295 1898733123 0 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\..\..\Users\E852638\Desktop}.255.3" 0 0 1 "" 0 "" 0
+Count=2
+[Aliases]
+A0=_ "C:\Program Files\IAR Systems\Embedded Workbench 6.4\arm\PowerPac\TCPIP\Src\Core\IP_Core.c" ""
+A1=_ "C:\Work\Project\Lynx 5816-CN\05 FCT software\code\Firmware\5816-CN\Common\BSP\cstartup.s" ""
+Count=2
+SuppressDialog=1

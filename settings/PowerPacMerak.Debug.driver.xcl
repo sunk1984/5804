@@ -1,0 +1,27 @@
+ -B 
+
+"--endian=little" 
+
+"--cpu=ARM926EJ-S" 
+
+"--fpu=None" 
+
+"-p" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\CONFIG\debugger\Atmel\AT91SAM9260.ddf" 
+
+"--semihosting" 
+
+"--device=AT91SAM9260" 
+
+"--drv_communication=USB0" 
+
+"--drv_interface_speed=auto" 
+
+"--jlink_initial_speed=32" 
+
+"--drv_catch_exceptions=0x000" 
+
+
+
+

@@ -1,0 +1,13 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\bin\armjlink.dll" 
+
+"C:\Work\Project\2016\Lynx 5816-CN\05 FCT software\code\Firmware\5816-CN\Debug\Exe\PowerPacMerak.out" 
+
+--plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
+
+--macro "C:\Work\Project\2016\Lynx 5816-CN\05 FCT software\code\Firmware\5816-CN\cfg\AT91SAM9260_SDRAM_IAR6.mac" 
+
+
+
+

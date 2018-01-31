@@ -1,0 +1,7 @@
+---- MERAK_ResetALL Matches (6 in 4 files) ----
+Comm_485.c (common\driver\comm485):function:    MERAK_ResetALL
+Comm_485.c (common\driver\comm485):void MERAK_ResetALL(void)
+Comm_485.c (common\driver\comm485):   // MERAK_ResetALL();
+Comm_485.h (common\driver\comm485):extern void MERAK_ResetALL(void);
+InitFile.c (common\framework\initfile):	MERAK_ResetALL();
+Task.c (common\framework\task):    MERAK_ResetALL();
